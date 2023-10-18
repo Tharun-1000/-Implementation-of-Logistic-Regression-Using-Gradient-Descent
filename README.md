@@ -7,12 +7,15 @@ To write a program to implement the the Logistic Regression Using Gradient Desce
 1. Hardware – PCs
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
-## Algorithm
-1. 
-2. 
-3. 
-4. 
+## Algorithm:
 
+1. Use the standard libraries in python for finding linear regression
+2. Set variables for assigning dataset values.
+3. Import linear regression from sklearn.
+4. Predict the values of array.
+5. Calculate the accuracy, confusion and classification report by importing the required modules
+from sklearn.
+6. Obtain the graph
 ## Program:
 ```
 /*
@@ -117,17 +120,46 @@ np.mean(predict(res.x,x)==y)
 ```
 
 ## Output:
-![logistic regression using gradient descent](sam.png)
-![273632361-914d94f2-effb-4172-bf91-d3881be0129c](https://github.com/Tharun-1000/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/135952958/bd663eba-7715-42a7-85d6-20f350112e4f)
-![273632465-4c3a74a6-05e4-4c29-82bf-b3f5fd515c01](https://github.com/Tharun-1000/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/135952958/9fbd6104-d769-430c-9f22-144d0b8724d4)
-![273632514-0d784217-b371-43c9-8359-05956190c002](https://github.com/Tharun-1000/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/135952958/c648ea68-5106-44f7-ad6b-0e746fa0dd18)
-![273632554-dcf2473b-962f-44fb-bf1c-4541230186de](https://github.com/Tharun-1000/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/135952958/bd7bba72-4653-4967-a021-71aec7bb48e7)
-![273632592-a72cadd7-50ca-4355-8dcd-85d74038fa49](https://github.com/Tharun-1000/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/135952958/f31caa56-38b7-4131-b52e-81b0e1886a4f)
-![273632662-86158786-18da-4d81-8b8e-12f859b7a116](https://github.com/Tharun-1000/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/135952958/796c26ed-b85a-4b17-8f82-3174bd825f6c)
-![273632695-00f12e94-2fd7-49e2-bfb7-d121521f4c3e](https://github.com/Tharun-1000/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/135952958/ccb63ba1-3857-4657-a74b-cc402e9ae751)
-![273632747-c5b2fe28-701b-44fc-a953-f1fa5e6723c5](https://github.com/Tharun-1000/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/135952958/b1e2a331-88d4-446a-abee-a916ece6dbbb)
-![273632786-dd605d25-c387-4606-990f-88968dba59b7](https://github.com/Tharun-1000/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/135952958/d2711e23-1d1d-4802-b34c-309dbcfe57b8)
-![273632822-c78afc2e-f098-4e59-b95a-8dd0a776a3bc](https://github.com/Tharun-1000/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/135952958/1c3784e6-c2fb-4862-9297-da0c6942428d)
+
+1.Array value of x
+
+![image](https://github.com/Tharun-1000/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/135952958/b63db0b9-b3f4-45d3-9c23-05dcdcb5fb1d)
+
+2.Array Value of y
+
+![image](https://github.com/Tharun-1000/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/135952958/20c2a6c2-2894-495e-ae10-7d37c1aa88d8)
+
+3.Exam 1-Score Graph
+
+![image](https://github.com/Tharun-1000/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/135952958/852ff766-78eb-4baf-ba95-11b9eed7847b)
+
+4.Sigmoid function graph
+
+![image](https://github.com/Tharun-1000/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/135952958/0355fcd1-7469-4236-895e-554290672679)
+
+5.x_train_grad value
+
+![image](https://github.com/Tharun-1000/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/135952958/f73e2700-53d6-44b0-80cc-5fd02b591a7b)
+
+6.y_train_grad value
+
+![image](https://github.com/Tharun-1000/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/135952958/0cbcb04b-874f-4659-81e0-f91bf7ca6d1e)
+
+7.Print res.x
+
+![image](https://github.com/Tharun-1000/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/135952958/990798d5-f2c0-451f-b443-8cae84eb9782)
+
+8.Decision boundary-graph for exam score
+
+![image](https://github.com/Tharun-1000/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/135952958/61a11edd-de96-43e4-9a39-67aa6f111f66)
+
+9.Probability value
+
+![image](https://github.com/Tharun-1000/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/135952958/5b527617-ac54-43b3-8c57-6ab45902c774)
+
+10.Prediction value of mean
+
+![image](https://github.com/Tharun-1000/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/135952958/9c68b61c-71af-4f3d-9131-653a7f85c7da)
 
 
 
